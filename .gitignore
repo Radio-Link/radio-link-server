@@ -1,0 +1,34 @@
+# Environment files (NEVER commit these)
+.env
+.env.local
+.env.development
+.env.production
+
+# Compiled output
+/dist
+/build
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Dependencies
+/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* ---- File structure ---- */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* ---- Module system ---- */
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* ---- Environment ---- */
+    "lib": ["ES2020"],
+    "types": ["node"],
+
+    /* ---- TypeScript behavior ---- */
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* ---- Debugging ---- */
+    "sourceMap": true
+  },
+  "include": ["src"]
+}
