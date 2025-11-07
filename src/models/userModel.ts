@@ -3,7 +3,7 @@ import { pool } from "../config/db";
 export interface User {
   id?: number;
   email: string;
-  password?: string;
+ password?: string | null;
   name?: string;
   provider?: string;
   provider_id?: string;
